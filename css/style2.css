@@ -1,0 +1,19 @@
+#n1{
+    position: relative;
+    width: 20px;
+}
+#n2{
+    width: 20px;
+}
+#Adição{
+    border-radius: 25px;
+}
+#Subtração{
+    border-radius: 25px;
+}
+#Multiplicação{
+    border-radius: 25px;
+}
+#Divisão{
+    border-radius: 25px;
+}
