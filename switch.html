@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <script>
+
+            const cargo = prompt('Digite o cargo: ');
+            var salario = prompt('Informe o salario: ');
+            let aumento = 0;
+
+            switch(cargo) {
+                case 'Estagiário':aumento = 2;break;
+                case 'Analista':aumento = 1.5;break;
+                case 'Gerente':aumento = 1.3;break;
+                case 'Presidente':aumento = 1.1;break;
+                default: alert('Favor informar um cargo válido!');                
+
+            }
+
+            salario = salario * aumento;
+            alert('Novo salario: R$' + salario);
+
+
+        </script>
+    </head>
+    <body></body>
+</html>
