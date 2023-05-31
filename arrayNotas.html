@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Notas</title>
+        <meta charset="UTF-8"/>
+        <script>
+
+            //cria o array notas 
+            const notas = [];
+
+            //cria a variavel  qtd e solicita a que o usuario infomre a quantidade de notas desejada
+            const qtd = Number(prompt('Informe a quantidade de notas'));
+
+            //cria um for  e faz o loop enquanto i for menor que a variavel qtd
+            for(let i = 0; i<qtd ; i ++){
+
+                // cria uma variavel nota e solicita a nota
+                let nota = Number(prompt('Informe nota'));
+                
+                //insere uma nota no fim do array notas
+                notas.push(nota);
+            }
+
+            //exibe o array notas em formato de tabela
+            console.table(notas);
+
+
+        </script>
+    </head>
+    <body></body>
+</html>

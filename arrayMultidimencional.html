@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array Multidimensional</title>
+        <meta charset="utf-8"/>
+        <script>
+
+            //Cria os arrays nomes e idades e insere 4 elementos dento de cada um
+            const nomes = ['Orion','Maria','José','Antônio'];
+            const idades = [18,20,24,30];
+
+            //exibe os arrays em formato de tabela no console de saida
+            console.table(nomes);
+            console.table(idades);
+
+            //Cria um Array multidimencional com 4 linhas e 4 elementos dentro de cada uma
+            const notas = [
+                [5,7,8,10],
+                [9,6,2,8],
+                [9,7,4,10],
+                [7,6,8,6]
+            ]
+
+            //exibe o array notas em formato de tabela no console
+            console.table(notas);
+
+            //exibe o item 2 do array nomes
+            console.log(nomes[2]);
+            //exibe o item 3 do array idades
+            console.log(idades[3]);
+            //exibe o item 4 da linha 2
+            console.table(notas[2][4]);
+
+            //Cria um array de objeto, onde cada elemento e um objeto
+            const pessoas = [ 
+                {nome: 'Jõao', telefone: '(81) 9876-5421', endereco:'ABC'},
+                {nome: 'José', telefone: '(81) 9876-1234', endereco:'EFG'},
+                {nome: 'Maria', telefone: '(81) 9543-5421', endereco:'HIJ'},
+                {nome: 'Joana', telefone: '(81) 8774-4781', endereco:'KLM'}
+            ]
+
+            //exibe o array pessoas
+            console.table(pessoas);
+
+            //exibe o nome do objeto 2 do array pessoas
+            console.table(pessoas[2].nome);
+
+            //outra forma de exibir um dado de um array de objetos
+            console.table(pessoas[3]['telefone']);
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+    </html>

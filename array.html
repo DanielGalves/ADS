@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array</title>
+        <meta charset="UTF-8"/>
+        <script>
+            //Cria um array de nome carros e insere alguns indices
+            const carros = ['Gol','Fusca','Virtus','Ka'];
+            //Comando table mostra os elementos do array em uma tabela no console do navegador
+            console.table(carros);
+
+            //Comando unshift insere novo indice no inicio do array
+            console.log('Comando unshift insere novo indice no inicio do array');
+            carros.unshift('Palio');
+            console.table(carros);
+
+            //Comando push insere novo indice no fim do array
+            console.log('Comando push insere novo indice no fim do array');
+            carros.push('Fiesta');
+            console.table(carros);
+
+            //Comando shift exclui o primeiro elemento do array
+            console.log('Comando shift exclui o primeiro elemento do array');
+            carros.shift();
+            console.table(carros);
+
+            //Comando pop exclui o ultimo elemento do array
+            console.log('Comando pop exclui o ultimo elemento do array');
+            carros.pop();
+            console.table(carros);
+
+            //Comando splice pode excluir, adicionar e modificar elementos de um array
+            //Usando splice para excluir o elemento do indice 1
+            console.log('Usando splice para excluir o elemento do indice 1');
+            carros.splice(1,1);
+            console.table(carros);
+
+            //Usando splice para adicionar um elemento no indice 3
+            console.log('Usando splice para adicionar um elemento no indice 3');
+            carros.splice(3, 0,'Uno');
+            console.table(carros);
+
+            //Usando splice para modificar o elemento no indice 3
+            console.log('Usando splice para modificar o elemento no indice 3');
+            carros.splice(3,1,'Uno Mile');
+            console.table(carros);
+             
+            //Comando sort ordena em ordem alfabetica os indices do array
+            console.log('Comando sort ordena em ordem alfabetica os indices do array');
+            carros.sort();
+            console.table(carros);
+
+
+
+
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
