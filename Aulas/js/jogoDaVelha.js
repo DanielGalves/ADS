@@ -53,14 +53,16 @@ function jogar(){
 
     linha = document.getElementById('linha').value - 1;
     coluna = document.getElementById('coluna').value -1;
+    
+        
+        if(tabuleiro[linha][coluna] == 0 ){
+         tabuleiro[linha][coluna] = numeroJogador() == 1 ? 1 : -1;
+            }else{
 
-    if(tabuleiro[linha][coluna] == 0 ){
-        tabuleiro[linha][coluna] = numeroJogador() == 1 ? 1 : -1;
-    }else{
+            aviso.innerHTML = 'Este campo ja foi marcado'
+            jogador--
 
-        aviso.innerHTML = 'Este campo ja foi marcado'
-
-    }
+        }    
 
     console.table(tabuleiro)
     jogador++
