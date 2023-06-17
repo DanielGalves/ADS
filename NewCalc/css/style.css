@@ -11,4 +11,7 @@ table{
 .botao{
     width: 100%;
 }
+#display{
+    text-align: right;
+}
 

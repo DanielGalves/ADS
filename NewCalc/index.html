@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Calculadora</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="text/JavaScript" href="js/script">
+        <script rel="text/javascript" src="js/script.js"></script>
     </head>
     <body>
         
@@ -12,28 +12,28 @@
             <input id="display" type="text" value=""><br>
             <table>
                 <tr>
-                    <td><input type="button" class="botao" id="C" value="C"></td>
-                    <td><input type="button" class="botao" id="*" value="*"></td>
-                    <td><input type="button" class="botao" id="/" value="/"></td>
-                    <td><input type="button" class="botao" id="del" value="del"></td>                   
+                    <td><input type="button" class="botao" id="C" value="C" onclick="inserir('C')"></td>
+                    <td><input type="button" class="botao" id="0" value="0" onclick="inserir(0)"></td>
+                    <td><input type="button" class="botao" id="/" value="/" onclick="inserir('/')"></td>
+                    <td><input type="button" class="botao" id="*" value="*" onclick="inserir('*')"></td>                   
                 </tr>
                 <tr>
-                    <td><input type="button" class="botao" id="7" value="7"></td>
-                    <td><input type="button" class="botao" id="8" value="8"></td>
-                    <td><input type="button" class="botao" id="9" value="9"></td>
-                    <td><input type="button" class="botao" id="-" value="-"></td>                   
+                    <td><input type="button" class="botao" id="7" value="7" onclick="inserir(7)"></td>
+                    <td><input type="button" class="botao" id="8" value="8" onclick="inserir(8)"></td>
+                    <td><input type="button" class="botao" id="9" value="9" onclick="inserir(9)"></td>
+                    <td><input type="button" class="botao" id="-" value="-" onclick="inserir('-')"></td>                   
                 </tr>
                 <tr>
-                    <td><input type="button" class="botao" id="4" value="4"></td>
-                    <td><input type="button" class="botao" id="5" value="5"></td>
-                    <td><input type="button" class="botao" id="6" value="6"></td>
-                    <td><input type="button" class="botao" id="+" value="+"></td>                   
+                    <td><input type="button" class="botao" id="4" value="4" onclick="inserir(4)"></td>
+                    <td><input type="button" class="botao" id="5" value="5" onclick="inserir(5)"></td>
+                    <td><input type="button" class="botao" id="6" value="6" onclick="inserir(6)"></td>
+                    <td><input type="button" class="botao" id="+" value="+" onclick="inserir('+')"></td>                   
                 </tr>
                 <tr>
-                    <td><input type="button" class="botao" id="1" value="1"></td>
-                    <td><input type="button" class="botao" id="2" value="2"></td>
-                    <td><input type="button" class="botao" id="3" value="3"></td>
-                    <td><input type="button" class="botao" id="=" value="="></td>                   
+                    <td><input type="button" class="botao" id="1" value="1" onclick="inserir(1)"></td>
+                    <td><input type="button" class="botao" id="2" value="2" onclick="inserir(2)"></td>
+                    <td><input type="button" class="botao" id="3" value="3" onclick="inserir(3)"></td>
+                    <td><input type="button" class="botao" id="=" value="=" onclick="inserir('=')"></td>                   
                 </tr>
                
             </table>
