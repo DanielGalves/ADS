@@ -1,0 +1,14 @@
+.principal{
+    border:3px groove rgb(4, 68, 68);
+    width:fit-content;
+    padding: 2px;
+    margin: 0 auto;   
+}
+table{
+    width: 100%;
+    flex: auto;
+}
+.botao{
+    width: 100%;
+}
+
