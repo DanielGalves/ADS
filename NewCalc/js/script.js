@@ -19,9 +19,7 @@ function inserir(produto){
         case '-': armazenar('-');break;
         case '/': armazenar('/');break;
         case '*': armazenar('*');break;
-        case '=': calcular(sinal);break;
-
-        
+        case '=': calcular(sinal);break;        
     }   
 
 }

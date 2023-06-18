@@ -1,5 +1,6 @@
 .principal{
     border:3px groove rgb(4, 68, 68);
+    border-radius:10px;
     width:fit-content;
     padding: 2px;
     margin: 0 auto;   
@@ -8,10 +9,10 @@ table{
     width: 100%;
     flex: auto;
 }
-.botao{
+.btn{
     width: 100%;
 }
 #display{
     text-align: right;
+    border-radius: 10px;
 }
-
